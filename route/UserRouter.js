@@ -5,9 +5,7 @@ const  jwt = require('jsonwebtoken');
 const bcrypt = require("bcrypt");
 const SignupModel = require("../modals/Signup.modal");
 
-
 console.log('object')
-
 
 UserController.post('/',async(req,res)=>{
 
