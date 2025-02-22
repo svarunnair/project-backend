@@ -2,7 +2,7 @@ const {Router} = require("express");
 const DataModal = require("../modals/Data.modal");
 const DataController = Router()
 
-
+console.log('object')
 
 DataController.post('/',async(req,res)=>{
     const {name,email,password,role,hospitals} = req.body
